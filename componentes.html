@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | Casa Verde</title>
+        <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/base/base.css">
+        <link rel="stylesheet" href="assets/css/componentes/botoes.css">
+        <link rel="stylesheet" href="assets/css/componentes/input.css">
+        <link rel="stylesheet" href="assets/css/componentes/cartao.css">
+        <link rel="stylesheet" href="assets/css/componentes/item.css">
+        <link rel="stylesheet" href="assets/css/componentes/produtos.css">
+        <link rel="stylesheet" href="assets/css/componentes/video.css">
+        <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
+        <link rel="stylesheet" href="assets/css/componentes/rodape.css">
+    </head>
+    <body>
+        <header class="container cabecalho">
+            <img src="assets/img/logo.svg" alt="logo" class="cabecalho__logo">
+            <a href="">
+                <img src="./assets//img/icones/carrinho.svg" alt="" class="cabecalho__carrinho">
+            </a>
+        </header>
+
+        <main class="container">
+            <button class="botao">Assinar Newsletter</button>
+            <input type="text" class="input input__icone input__email" placeholder="Insira seu e-mail" aria-label="Insira seu e-mail">
+            <button class="botao botao__alternativo">Botão Alternativo</button>
+
+            <article class="cartao">
+                <h2 class="titulo alinhamento__meio">Como conseguir<span class="titulo__destaque">minha planta</span></h2>
+
+                <ul class="lista-item">
+                    <li class="item">
+                        <span class="item__icone item__icone__cursor"></span>
+                        <p>Escolha suas plantas</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icone item__icone__carrinho"></span>
+                        <p>Faça seu pedido</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icone item__icone__caminhao"></span>
+                        <p>Aguarde na sua casa</p>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="produto">
+                <img src="assets/img/produto-01.png" alt="Foto do produto" class="produto__image">
+                <div class="produto__conteudo">
+                    <h3 class="produto__titulo titulo__destaque"Ajuga reptans></h3>
+                    <p class="produto__preco">R$ 20,00</p>
+                    <a href="#" class="produto__comprar">Comprar<span class="produto__comprar__icone"></span></a>
+                </div>
+            </article>
+
+            <article class="cartao-de-video">
+                <div class="cartao-de-video__video"><img src="https://picsum.photos/278/252" alt="Banner"></div>
+                <h3 class="cartao-de-video__titulo">Video XYL</h3>
+                <p>Publicado em março de 2019</p>
+            </article>
+        </main>
+
+        <footer class="container rodape">
+            <img src="assets/img/logo.svg" alt="logo" class="rodape__logo">
+            <ul class="rodape__social">
+                <li><a href="#" class="rodape__social-media"><img src="assets/img/icones/facebook.svg" alt=""></a></li>
+                <li><a href="#" class="rodape__social-media"><img src="assets/img/icones/twitter.svg" alt=""></a></li>
+                <li><a href="#" class="rodape__social-media"><img src="assets/img/icones/instagram.svg" alt=""></a></li>
+            </ul>
+
+            <address class="rodape__unidade texto">
+                <span class="rodape__unidade__titulo">Rio de Janeiro</span>
+                Rua Siqueira Campos, 171, 303 <br>
+                Copacabana <br>
+                Telefone: (21) 99876-0099 <br>
+            </address>
+
+            <address class="rodape__unidade texto">
+                <span class="rodape__unidade__titulo">São Paulo</span>
+                Rua Anita Garibali, 33, 13 <br>
+                Sé <br>
+                Telefone: (11) 99875-2201 <br>
+            </address>
+        </footer>
+    </body>
+</html>
